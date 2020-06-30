@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leo Traders</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a style="cursor: pointer;" onclick="document.getElementById('animate').click()">Order Now</a></li>
+        <li><a style="cursor: pointer;" id="contactbtn">Contact</a></li>
+    </ul>
+    <div class="bg">
+        <img class="mobileHide" width="100%" style="height: 100vh; position: fixed;" src="bg.jpg" alt="">
+        <img class="mobileShow" width="100%" style="height: 100vh; position: fixed;" src="bgmobile.jpg" alt="">
+        <div id="contactpopup" class="modal">  
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Us</h2>
+            <h4>Number:</h4>
+            <h4>Email:</h4>
+            <h4>Address:</h4>
+          </div>
+        </div>
+    <img onclick="myFunction()" class="animate" id="animate" src="chat.png" alt="">
+    <iframe id="chatbot" style="display: none;" src="https://app.engati.com/static/standalone/bot.html?bot_key=e6eee7c453f84ff3" frameborder="0"></iframe>
+    <!-- <script>!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/chat_widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://app.engati.com",{bot_key:"e6eee7c453f84ff3",welcome_msg:true,branding_key:"default",server:"https://app.engati.com",e:"p" });</script> -->
+<script src="main.js"></script>
+</body>
+</html>
