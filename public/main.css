@@ -30,7 +30,7 @@ and (min-device-width : 320px)
 and (max-device-width : 480px){ 
   ul{
     left: 27%;
-    top: 10%;
+    top: 8%;
     text-align: center;
     align-items: center;
   }}
@@ -126,7 +126,7 @@ and (max-device-width : 480px){
   z-index: 20;
   position: fixed;
   display: block;
-  right: 15%;
+  right: 12%;
   bottom: 0;
   cursor: pointer;
   animation-name: wiggle;
@@ -147,8 +147,8 @@ and (max-device-width : 480px){
 and (min-device-width : 320px) 
 and (max-device-width : 480px){ 
   .animate {
-    height: 15vh;
-    right: 5%;
+    height: 12vh;
+    right: 4%;
   }}
 
 @-webkit-keyframes wiggle {
