@@ -2,16 +2,30 @@ body {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background: url('bg.png') no-repeat center fixed;
 }
 
 h2,h4{
   color: #333;
 }
 
-.bg {
-  background: url('bg.jpg') no-repeat center fixed;
+/* .bg {
+  background: url('bg.png') no-repeat center fixed;
   background-size: cover;
   height: 100vh;
+} */
+.logo{
+  height: 100px;
+  top: 7%;
+  left: 11%;
+  position: fixed;
+}
+
+.vector{
+  height: 80vh;
+  right: 15%;
+  bottom: 10%;
+  position: fixed;
 }
 
 ul {
@@ -22,7 +36,7 @@ ul {
   position: fixed;
   z-index: 2;
   top: 12%;
-  left: 25%;
+  left: 21%;
 }
 
 @media only screen 
@@ -126,7 +140,7 @@ and (max-device-width : 480px){
   z-index: 20;
   position: fixed;
   display: block;
-  right: 12%;
+  right: 16%;
   bottom: 0;
   cursor: pointer;
   animation-name: wiggle;
@@ -226,7 +240,7 @@ and (max-device-width : 480px){
   .social{
     position: fixed;
     z-index: 20;
-    left: 7%;
+    left: 11%;
     bottom: 5%;
   }
   @media only screen 
