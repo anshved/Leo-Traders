@@ -21,10 +21,28 @@ h2,h4{
   position: fixed;
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){ 
+  .logo{
+    height: 70px;
+    top: 4%;
+    left: 11%;
+    position: fixed;
+  }}
+
 .vector{
   height: 80vh;
   right: 15%;
   bottom: 10%;
+  position: fixed;
+}
+
+.vectormobile{
+  /* height: 80vh; */
+  width: 100%;
+  right: 0%;
+  bottom: 12%;
   position: fixed;
 }
 
@@ -43,10 +61,11 @@ ul {
 and (min-device-width : 320px) 
 and (max-device-width : 480px){ 
   ul{
-    left: 27%;
-    top: 8%;
+    right: 11% !important;
+    top: 6%;
     text-align: center;
     align-items: center;
+    left: auto;
   }}
 
 li {
