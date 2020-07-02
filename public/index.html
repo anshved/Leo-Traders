@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="bg">
     <ul>
         <li><a class="active" href="#home">Home</a></li>
         <li><a style="cursor: pointer;" onclick="document.getElementById('animate').click()">Order Now</a></li>
         <!-- <li><a style="cursor: pointer;" id="contactbtn">Contact</a></li> -->
     </ul>
-    <!-- <div class="mobileHide bg"></div> -->
         <img class="mobileHide vector" src="vector.png" alt="">
         <img class="mobileHide logo" src="logo.png" alt="">
         <img class="mobileShow vectormobile" src="vectormobile.png" alt="">
@@ -34,6 +34,7 @@
     <img onclick="myFunction()" class="animate  mobileHide" id="animate" src="chat.png" alt="">
     <iframe id="chatbot" style="display: none;" src="https://app.engati.com/static/standalone/bot.html?bot_key=e6eee7c453f84ff3" frameborder="0"></iframe>
     <!-- <script>!function(e,t,a){var c=e.head||e.getElementsByTagName("head")[0],n=e.createElement("script");n.async=!0,n.defer=!0, n.type="text/javascript",n.src=t+"/static/js/chat_widget.js?config="+JSON.stringify(a),c.appendChild(n)}(document,"https://app.engati.com",{bot_key:"e6eee7c453f84ff3",welcome_msg:true,branding_key:"default",server:"https://app.engati.com",e:"p" });</script> -->
+    </div>
     <script>
         if (screen && screen.width < 480) {
           document.write('<script type="text/javascript" src="bot.js"><\/script>');
